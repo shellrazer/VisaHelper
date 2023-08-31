@@ -2,9 +2,9 @@
 
 function: monitor the visa appoinment. 
 
-- it use selenium and tensorflow to visit website and recognize verification code.
-- in peak hours, eg. 6AM - 8 AM, observe timeout a lot.
-- once find available visa, play alarm audio and send email message.
+- it uses selenium and tensorflow to visit website and read verification code.
+- in peak hours, eg. 6AM - 8 AM, frequent timeout is observed.
+- once find available visa, it plays alarm audio and sends email message.
 - it doesn't book appointment automatically.
 
 usage: 
